@@ -1,5 +1,5 @@
 _site
-.sass-cache
-.jekyll-cache
+node_modules
+hot
 .jekyll-metadata
-vendor
+yarn-error.log
