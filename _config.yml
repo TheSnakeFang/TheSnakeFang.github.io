@@ -20,8 +20,9 @@
 
 title: Running from the Night | 15-418 Final Project
 email: kevinfang@cmu.edu | nstefano@andrew.cmu.edu
-description: >- # this means to ignore newlines until "baseurl:"
-Parallel application using MPI in C++ to calculate the shortest safe path between two locations on the moon on-the-fly using Lunar Reconnaissance Orbiter (LRO) lunar suface imagery data.
+description: >- 
+  Parallel application using MPI in C++ to calculate the shortest safe path between two 
+  locations on the moon on-the-fly using Lunar Reconnaissance Orbiter (LRO) lunar suface imagery data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kevinfangtastic
