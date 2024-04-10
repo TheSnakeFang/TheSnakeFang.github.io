@@ -12,8 +12,6 @@
 
 ---
 
-15-418 Final Project Spring 2024
-
 #### Contact
 
 - Kevin Fang - [kevinfang@cmu.edu](mailto:kevinfang@cmu.edu)
