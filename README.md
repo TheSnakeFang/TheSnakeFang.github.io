@@ -6,7 +6,7 @@
 
 ### Documents
 
-- [Project Proposal](/_site/assets/proposal.pdf) (PDF)
+- [Project Proposal](proposal.pdf) (PDF)
 - Milestone Report (coming soon)
 - Final Report (coming soon)
 

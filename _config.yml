@@ -2,8 +2,7 @@
 # Customize Options: Must Change
 #
 # Title:
-title: Running from the Night | 15-418 Final ProjectDuo, A Simple Jekyll Theme
-
+title: Running from the Night | 15-418 Final Project
 # Where the page will be deployed.
 # If it's https://foo.com/bar, just write "https://foo.com"
 url: "https://thesnakefang.github.io/"
@@ -13,9 +12,7 @@ url: "https://thesnakefang.github.io/"
 
 # Twitter IDs
 twitter:
-  username: "chibicode"
-author:
-  twitter: "chibicode"
+  username: "kevinfangtastic"
 
 # Set default og:image
 # From Unsplash: https://unsplash.com/photos/1_CMoFsPfso
