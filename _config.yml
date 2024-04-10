@@ -24,7 +24,7 @@ description: >-
   Parallel application using MPI in C++ to calculate the shortest safe path between two 
   locations on the moon on-the-fly using Lunar Reconnaissance Orbiter (LRO) lunar suface imagery data.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://thesnakefang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kevinfangtastic
 github_username:  thesnakefang
 
