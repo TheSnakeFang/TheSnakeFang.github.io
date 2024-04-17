@@ -7,7 +7,7 @@
 ### Documents
 
 - [Project Proposal](proposal.pdf) (PDF)
-- [Milestone Report] (milestone.pdf) (PDF)
+- [Milestone Report](milestone.pdf) (PDF)
 - Final Report (coming soon)
 
 ---
