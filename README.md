@@ -8,7 +8,7 @@
 
 - [Project Proposal](proposal.pdf) (PDF)
 - [Milestone Report](milestone.pdf) (PDF)
-- Final Report (coming soon)
+- [Final Report](finalreport.pdf) (PDF)
 
 ---
 
@@ -27,7 +27,26 @@ Parallel application using MPI in C++ to calculate the shortest safe path betwee
 
 ---
 
-### Progress
+### Project Info
+
+## Summary
+This project develops a parallel application using MPI and C++ that computes a path across scientifically significant zones on the lunar surface, using data from the Lunar Reconnaissance Orbiter. The application leverages a greedy algorithm and A* pathfinding adapted for parallel execution, aimed at providing rapid, efficient route calculations during lunar missions.
+
+## Key Components
+- **Node:** Represents points on a grid with costs, heuristics, and navigational data.
+- **Grid:** A 2D array indicating traversable and blocked regions, essential for mapping the lunar surface.
+- **routeMap:** A dynamic representation of the Grid, storing path-related data for navigation.
+- **antennaList:** Dynamic locations for antenna placement, critical for maintaining communication during missions.
+- **Priority Queue:** Utilized within A* to prioritize nodes based on cost and heuristic estimates for efficient pathfinding.
+
+## Approach
+Our approach involves vertical and horizontal parallelism to optimize pathfinding:
+- **Vertical Parallelism:** Each processor handles a contiguous segment of rows, determining antenna placements and the shortest path to the segment's end.
+- **Horizontal Parallelism:** Each processor operates on continuous columns, improving data locality and parallel efficiency.
+
+See [Final Report](finalreport.pdf) (PDF) for full information on this project.
+
+### Mid-Project Progress Report
 
 #### Data Conversion with GDAL
 We have successfully configured our project to convert Lunar Reconnaissance Orbiter (LRO) files, which are in `.img` and `.image` formats, into usable data formats for our program. This conversion is made feasible by utilizing the Geospatial Data Abstraction Library (GDAL), a versatile C++ library capable of reading and writing a broad array of raster and vector geospatial data formats. Our use of GDAL simplifies the process of obtaining slope maps and visual data. We are exploring the potential of GDAL for obstacle detection; if suitable LRO files are unavailable for existing crater and rock maps, we may employ an off-the-shelf machine learning algorithm to pre-analyze all surface imagery for obstacle identification.
